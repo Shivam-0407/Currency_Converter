@@ -93,6 +93,7 @@ function button_swap(){
               onChange={(event) => {
                 setInputValue(event.target.value);
               }}
+              placeholder="Type your amount here 😎"
             ></Input>
           </Form.Item>
           <div className="currency-selectors">
