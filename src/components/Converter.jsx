@@ -29,7 +29,7 @@ function Converter() {
   let defaultsecondCurrency = "INR";
 
  
-  const [inputValue, setInputValue] = useState(1);
+  const [inputValue, setInputValue] = useState(0);
   let [firstCurrency, setFirstCurrency] = useState(defaultfirstCurrency);
   let [secondCurrency,  setsecondCurrency] = useState(defaultsecondCurrency);
   const [result,setResult] = useState(0);
